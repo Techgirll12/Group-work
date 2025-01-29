@@ -74,7 +74,7 @@ public class LayOutBoomApp{
         ExitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.exit(0);
+                System.exit(2);
             }
         });
         return MusicApp;
