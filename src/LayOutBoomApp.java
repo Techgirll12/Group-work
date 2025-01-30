@@ -44,7 +44,7 @@ public class LayOutBoomApp{
         JTextField studioField = new JTextField();
         centre.add(studioField);
 
-        centre.add(new JLabel("Category:"));JComboBox<String> categoryComboBox = new JComboBox<>(Categories);
+        centre.add(new JLabel("Category part:"));JComboBox<String> categoryComboBox = new JComboBox<>(Categories);
         centre.add(categoryComboBox);
 
         centre.add(new JLabel("Available:"));
